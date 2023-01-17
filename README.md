@@ -1,2 +1,2 @@
-# clock
+# Digital Clock
 IT  IS  A  DIGITAL  CLOCK  WHICH  UPDATES  EVERY  SECOND  ALSO  SHOWS  AM/PM.
