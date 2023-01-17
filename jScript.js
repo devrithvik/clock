@@ -24,7 +24,9 @@ function update_time(){
      hrs.innerHTML = h;
      min.innerHTML = m;
      sec.innerHTML = s;
-     
-     setTimeout(function timeout(){update_time()},1000);
+     function timeout(){
+         update_time();
+     }
+     setTimeout(timeout,1000);
 }
 update_time();
